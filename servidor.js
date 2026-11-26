@@ -22,3 +22,9 @@ servidor.listen(PORTA, () => {
 });
 
 //Dica de ouro do professor: o --watch faz o servidor reiniciar sozinho toda vez que você salvar uma mudança no código!
+//(node --watch servidor.js)
+
+//Inicie o repositório local e salve os arquivos no Git:
+//git init (Initialized empty Git repository in C:/Users/CRC/estoque-api/.git/)
+//git add . (warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it)
+//git commit -m "Aula 1: API de estoque com rotas GET" (O terminal deve listar a criação dos arquivos package.json e servidor.js no histórico do commit.)
